@@ -5,6 +5,7 @@ some code for learning  FPGA.
 
 - 需要安装**vivado**，并且把**vivado**的**bin**目录添加到环境变量**PATH**当中
 - 安装**make**，或者其他的方便编译的工具。
+- 由于**clean**，用到了**rm**命令，所以得下载**cygwin**或者**msys2**。并且需要将**rm**指令的位置加入到环境变量，例如 **/usr/bin**
 
 #### 目录结构
 
