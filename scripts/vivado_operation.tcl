@@ -8,7 +8,13 @@ proc vivado_create_proj {} {
 }
 
 
+proc vivado_add_file {args} {
+    if { [string match *.xpr* [exec ls $::BUILD_DIR]] } {
 
+    } else {
+        puts "project is not created."
+    }
+}
 
 
 
